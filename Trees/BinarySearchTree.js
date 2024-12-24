@@ -145,12 +145,12 @@ class BinaryTree {
 }
 
 let bst = new BinaryTree();
-bst.makeTree(20);
+// bst.makeTree(19);
 bst.makeTree(10);
 bst.makeTree(5);
 bst.makeTree(11);
 bst.makeTree(30);
-bst.makeTree(23);
+bst.makeTree(20);
 bst.makeTree(40);
  
 // console.log(bst.minvalue(bst.root));
@@ -158,7 +158,7 @@ bst.makeTree(40);
 //bst.bfstraversing();
 //console.log(bst.search(bst.root,5));
 //console.log(bst)
-bst.inorder(bst.root);
-console.log(" ");
-bst.removeData(5);
-bst.inorder(bst.root);
+bst.preorder(bst.root);
+// console.log(" ");
+// bst.removeData(5);
+// bst.inorder(bst.root);
