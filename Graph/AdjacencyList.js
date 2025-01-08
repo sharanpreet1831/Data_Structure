@@ -20,7 +20,7 @@ class Graph {
     }
 }
 
-const graph1 = new Graph();
+const graph1 = new Graph(); 
 graph1.addVertex('A');
 graph1.addVertex('B');
 graph1.addVertex('C');
